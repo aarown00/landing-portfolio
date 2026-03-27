@@ -1,0 +1,124 @@
+:root {
+  --jumbotron-padding-y: 1rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.project-description {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #666;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.demo-notice {
+  color: #999;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.provided-to {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.back-portfolio {
+  padding: 0.5rem 1.5rem;
+  align-self: flex-end;
+  text-decoration: underline;
+}
+
+.jumbotron .container {
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(1.5);
+}
+
+.carousel-inner img {
+  filter: brightness(0.9);
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 1.5);
+}
+
+.carousel-indicators li.active {
+  background-color: rgba(255, 255, 255, 1.5);
+}
+
+.training-card-img {
+  height: 150px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.training-provider {
+  font-size: 0.875rem;
+  color: #999;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .d-flex {
+  margin-top: auto;
+}
