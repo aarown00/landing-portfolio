@@ -11,6 +11,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -18,51 +21,21 @@
 
   <body>
 
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About Me</h4>
-              <p class="text-white">I built my foundation in programming with Python and Linux while earning my Computer Engineering degree from Far Eastern University Alabang, where I developed a strong interest in software and systems.</p>
-              <p class="text-white">I first gained hands-on experience at Denso Ten Solutions Philippines, working with Linux servers, system monitoring tools like Zabbix, and automation tasks. This role strengthened my understanding of infrastructure, system reliability, and IT operations.</p>
-              <p class="text-white">I later explored software development during my internship at You_Source Inc., where I worked with Angular and Ruby on Rails, collaborated using GitHub, and contributed to real-world web applications.    </p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Profile</h4>
-              <ul class="list-unstyled">
-                <!-- <li class="text-white">Email: <a href="" class="text-white"></a></li>
-                <li class="text-white">Mobile No: <a href="" class="text-white"></a></li> -->
-                <li class="text-white">LinkedIn: <a href="https://www.linkedin.com/in/aaron-gerald-martillano-67198328b/" class="text-white">https://www.linkedin.com/in/aaron-gerald-martillano-67198328b/</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src="https://www.svgrepo.com/show/12869/portfolio-outline-symbol.svg" width="20" height="20" alt="Portfolio" class="mr-2">
-            <strong>Aaron Martillano</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+    <header id="navbar-container"></header>
 
     <main role="main">
 
       <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">Portfolio</h1>
+          <h1 class="jumbotron-heading">Aaron Martillano</h1>
           <p class="lead text-muted">I'm a Computer Engineering graduate with experience in developing web applications using Python and Django, troubleshooting network infrastructure for support, managing Linux servers, and working with network monitoring systems such as Zabbix.</p>
           <p>
-            <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false">About Me</button>
-            <a href="#certifications" class="btn btn-primary my-2">View My Certifications</a>
-            <a href="#trainings" class="btn btn-primary my-2">View My Trainings</a>
-            <a href="https://github.com/aarown00" class="btn btn-secondary my-2">GitHub Profile</a>
+            <a href="https://github.com/aarown00" class="btn btn-social btn-github my-2" target="_blank">
+              <i class="fab fa-github"></i> GitHub Profile
+            </a>
+            <a href="https://tryhackme.com/p/aarown.00" class="btn btn-social btn-tryhackme my-2" target="_blank">
+              <i class="fas fa-shield-alt"></i> TryHackMe
+            </a>
           </p>
         </div>
       </section>
@@ -97,6 +70,86 @@
                       <a href="https://github.com/aarown00/MEI" class="btn btn-sm btn-outline-secondary">GitHub Link</a>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album py-5 bg-white" id="experience">
+        <div class="container">
+          <h2 class="mb-5 text-center">Professional Journey</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="timeline-title">Systems Support & Developer</h5>
+                <p class="timeline-company">Project - P.O Monitoring System</p>
+                <p class="timeline-date">Jun 2025 - Nov 2025</p>
+                <p class="timeline-description">
+                  Provided responsive system support and development for a sold software system. Delivered technical troubleshooting for both application-level issues and network infrastructure components. Ensured system reliability, performance optimization, and client satisfaction through proactive monitoring and responsive support.
+                </p>
+                <div class="timeline-tags">
+                  <span class="badge badge-success">Python</span>
+                  <span class="badge badge-success">Technical Support</span>
+                  <span class="badge badge-success">Client Support</span>
+                  <span class="badge badge-success">Batch Scripting</span>
+                  <span class="badge badge-success">Network Configuration</span>
+                  <span class="badge badge-success">System Development</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item timeline-item-education">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="timeline-title">Computer Engineering</h5>
+                <p class="timeline-company">Far Eastern University Alabang</p>
+                <p class="timeline-date">Aug 2019 - Sept 2025</p>
+                <p class="timeline-description">
+                  Built a strong foundation in programming with Python and Linux while earning my Computer Engineering degree. Developed a deep interest in network and security infrastructure. Balanced academic coursework with hands-on professional experience, gaining practical knowledge in development, network infrastructure, and IT operations.
+                </p>
+                <div class="timeline-tags">
+                  <span class="badge badge-secondary">Operating Systems</span>
+                  <span class="badge badge-secondary">Network Infrastructure</span>
+                  <span class="badge badge-secondary">Cloud Computing</span>
+                  <span class="badge badge-secondary">Cybersecurity</span>
+                  <span class="badge badge-secondary">Software Engineering</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="timeline-title">Software Engineer Intern</h5>
+                <p class="timeline-company">You_Source Inc.</p>
+                <p class="timeline-date">Jan 2025 - Apr 2025</p>
+                <p class="timeline-description">
+                  Worked with modern web technologies including Angular and Ruby on Rails. Collaborated with the development team using GitHub for version control and contributed to real-world web applications. Gained hands-on experience in full-stack development and agile workflows.
+                </p>
+                <div class="timeline-tags">
+                  <span class="badge badge-primary">Jira</span>
+                  <span class="badge badge-primary">GitHub</span>
+                  <span class="badge badge-primary">Linux Server</span>
+                  <span class="badge badge-primary">Software & Systems Support</span>
+                  <span class="badge badge-primary">Web Development</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h5 class="timeline-title">IT Support Intern - Network Team</h5>
+                <p class="timeline-company">Denso Ten Solutions Philippines Corporation</p>
+                <p class="timeline-date">Dec 2023 - Apr 2024</p>
+                <p class="timeline-description">
+                  First professional role managing Linux server infrastructure and system monitoring. Worked extensively with Zabbix for network and system monitoring, performed automation tasks, and supported IT operations. Developed strong foundation in infrastructure management and system reliability.
+                </p>
+                <div class="timeline-tags">
+                  <span class="badge badge-info">Windows Server</span>
+                  <span class="badge badge-info">Zabbix Monitoring</span>
+                  <span class="badge badge-info">Network Infrastructure</span>
+                  <span class="badge badge-info">IT Operations</span>
                 </div>
               </div>
             </div>
@@ -146,103 +199,61 @@
       <div class="album py-5 bg-light" id="trainings">
         <div class="container">
           <h2 class="mb-5">Trainings</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/a27867b1-d64f-4890-b577-89f162015407/blob" alt="Training image">
-                <div class="card-body">
-                  <p class="card-text">Getting Started in Cybersecurity 3.0</p>
-                  <p class="training-provider">Fortinet</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/d38d79e4-d458-45fe-8bab-f562546cdbd9/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+          <div class="training-list">
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/a27867b1-d64f-4890-b577-89f162015407/blob" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">Getting Started in Cybersecurity 3.0</p>
+                <p class="training-provider">Fortinet</p>
+                <a href="https://www.credly.com/badges/d38d79e4-d458-45fe-8bab-f562546cdbd9/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/a06a4e98-21bf-49ab-ad70-c61641f26fc8/blob" alt="Training image">
-                <div class="card-body">
-                  <p class="card-text">Introduction to the Threat Landscape 3.0</p>
-                  <p class="training-provider">Fortinet</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/cf7b4754-1dc9-4a5c-806d-9c0d047556d3/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/a06a4e98-21bf-49ab-ad70-c61641f26fc8/blob" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">Introduction to the Threat Landscape 3.0</p>
+                <p class="training-provider">Fortinet</p>
+                <a href="https://www.credly.com/badges/cf7b4754-1dc9-4a5c-806d-9c0d047556d3/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">AWS Cloud Quest: Cloud Practitioner - Training Badge</p>
-                  <p class="training-provider">Amazon Web Services Training and Certification</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/bafd1979-7acb-4dd3-9b9a-64f376400902/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">AWS Cloud Quest: Cloud Practitioner - Training Badge</p>
+                <p class="training-provider">Amazon Web Services Training and Certification</p>
+                <a href="https://www.credly.com/badges/bafd1979-7acb-4dd3-9b9a-64f376400902/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">CCNA: Enterprise Networking, Security, and Automation</p>
-                  <p class="training-provider">Cisco</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/953318bb-1134-492c-a736-dcf8bf8c9d88/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/0a6d331e-8abf-4272-a949-33f754569a76/CCNAENSA__1_.png" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">CCNA: Enterprise Networking, Security, and Automation</p>
+                <p class="training-provider">Cisco</p>
+                <a href="https://www.credly.com/badges/953318bb-1134-492c-a736-dcf8bf8c9d88/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Introduction to Cybersecurity</p>
-                  <p class="training-provider">Cisco</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/f3e2368b-4328-46eb-96b1-496ebf4464a6/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">Introduction to Cybersecurity</p>
+                <p class="training-provider">Cisco</p>
+                <a href="https://www.credly.com/badges/f3e2368b-4328-46eb-96b1-496ebf4464a6/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">CCNA: Switching, Routing, and Wireless Essentials</p>
-                  <p class="training-provider">Cisco</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/d5fbf1f2-9b2b-4efe-966e-9efd0fe713e1/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">CCNA: Switching, Routing, and Wireless Essentials</p>
+                <p class="training-provider">Cisco</p>
+                <a href="https://www.credly.com/badges/d5fbf1f2-9b2b-4efe-966e-9efd0fe713e1/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top training-card-img" src="https://images.credly.com/size/680x680/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">CCNA: Introduction to Networks</p>
-                  <p class="training-provider">Cisco</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="https://www.credly.com/badges/bab6aceb-4195-438a-843b-6841fb26e9fd/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                  </div>
-                </div>
+            <div class="training-item">
+              <img src="https://images.credly.com/size/680x680/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="Training image" class="training-item-img">
+              <div class="training-item-content">
+                <p class="training-item-title">CCNA: Introduction to Networks</p>
+                <p class="training-provider">Cisco</p>
+                <a href="https://www.credly.com/badges/bab6aceb-4195-438a-843b-6841fb26e9fd/public_url" class="btn btn-sm btn-outline-secondary">View Details</a>
               </div>
             </div>
           </div>
@@ -271,5 +282,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/load-navbar.js"></script>
   </body>
 </html>
