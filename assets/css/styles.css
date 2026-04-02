@@ -167,6 +167,21 @@ header {
   transform: translateY(-2px);
 }
 
+/* LinkedIn Button */
+.btn-linkedin {
+  color: #ffffff;
+  background-color: #0A66C2;
+  border-color: #0A66C2;
+}
+
+.btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #084d96;
+  border-color: #084d96;
+  box-shadow: 0 4px 15px rgba(10, 102, 194, 0.3);
+  transform: translateY(-2px);
+}
+
 .jumbotron-heading {
   font-weight: 300;
 }
