@@ -233,6 +233,14 @@ footer p {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+/* Center project cards in album section */
+.album .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   background-color: rgba(0, 0, 0, 0.4);
