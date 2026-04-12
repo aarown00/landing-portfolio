@@ -63,6 +63,9 @@
             <a href="https://www.linkedin.com/in/aaron-gerald-martillano-67198328b/" class="btn btn-social btn-linkedin my-2" target="_blank">
               <i class="fab fa-linkedin"></i> LinkedIn Profile
             </a>
+            <a href="#contact" class="btn btn-social btn-primary my-2">
+              <i class="fas fa-envelope"></i> Contact Me
+            </a>
           </p>
         </div>
       </section>
@@ -114,17 +117,11 @@
                 <h5 class="timeline-title">Systems Support & Developer</h5>
                 <p class="timeline-company">Project - P.O Monitoring System</p>
                 <p class="timeline-date">Jun 2025 - Nov 2025</p>
-                <p class="timeline-description">
-                  Provided responsive system support and development for a sold software system. Delivered technical troubleshooting for both application-level issues and network infrastructure components. Ensured system reliability, performance optimization, and client satisfaction through proactive monitoring and responsive support.
-                </p>
-                <div class="timeline-tags">
-                  <span class="badge badge-success">Python</span>
-                  <span class="badge badge-success">Technical Support</span>
-                  <span class="badge badge-success">Client Support</span>
-                  <span class="badge badge-success">Batch Scripting</span>
-                  <span class="badge badge-success">Network Configuration</span>
-                  <span class="badge badge-success">System Development</span>
-                </div>
+                <ul class="timeline-description">
+                  <li>Delivered technical troubleshooting remote and onsite for application-level and network infrastructure issues.</li>
+                  <li>Implemented a Purchase Order Monitoring System.</li>
+                  <li>Skills: IPv4 Network Configuration, Server Deployment, Python, PostgreSQL Database Backup & Maintenance, Batch Scripting, GitHub, Windows Operating System</li>
+                </ul>
               </div>
             </div>
             <div class="timeline-item timeline-item-education">
@@ -133,16 +130,9 @@
                 <h5 class="timeline-title">Computer Engineering</h5>
                 <p class="timeline-company">Far Eastern University Alabang</p>
                 <p class="timeline-date">Aug 2019 - Sept 2025</p>
-                <p class="timeline-description">
-                  Built a strong foundation in programming with Python and Linux while earning my Computer Engineering degree. Developed a deep interest in network and security infrastructure. Balanced academic coursework with hands-on professional experience, gaining practical knowledge in development, network infrastructure, and IT operations.
-                </p>
-                <div class="timeline-tags">
-                  <span class="badge badge-secondary">Operating Systems</span>
-                  <span class="badge badge-secondary">Network Infrastructure</span>
-                  <span class="badge badge-secondary">Cloud Computing</span>
-                  <span class="badge badge-secondary">Cybersecurity</span>
-                  <span class="badge badge-secondary">Software Engineering</span>
-                </div>
+                <ul class="timeline-description">
+                  <li>Bachelor of Science In Computer Engineering</li>
+                </ul>
               </div>
             </div>
             <div class="timeline-item">
@@ -151,16 +141,11 @@
                 <h5 class="timeline-title">Software Engineer Intern</h5>
                 <p class="timeline-company">You_Source Inc.</p>
                 <p class="timeline-date">Jan 2025 - Apr 2025</p>
-                <p class="timeline-description">
-                  Worked with modern web technologies including Angular and Ruby on Rails. Collaborated with the development team using GitHub for version control and contributed to real-world web applications. Gained hands-on experience in full-stack development and agile workflows.
-                </p>
-                <div class="timeline-tags">
-                  <span class="badge badge-primary">Jira</span>
-                  <span class="badge badge-primary">GitHub</span>
-                  <span class="badge badge-primary">Linux Server</span>
-                  <span class="badge badge-primary">Software & Systems Support</span>
-                  <span class="badge badge-primary">Web Development</span>
-                </div>
+                <ul class="timeline-description">
+                  <li>Triaged and resolved software defects on a production healthcare web application.</li>
+                  <li>Implemented frontend and backend improvements aligned with client requirements.</li>
+                  <li>Skills: Jira Ticketing System, Linux Server, GitHub, Web Application Development, Software Troubleshooting and Support</li>
+                </ul>
               </div>
             </div>
             <div class="timeline-item">
@@ -169,15 +154,11 @@
                 <h5 class="timeline-title">IT Support Intern - Network Team</h5>
                 <p class="timeline-company">Denso Ten Solutions Philippines Corporation</p>
                 <p class="timeline-date">Dec 2023 - Apr 2024</p>
-                <p class="timeline-description">
-                  First professional role managing Linux server infrastructure and system monitoring. Worked extensively with Zabbix for network and system monitoring, performed automation tasks, and supported IT operations. Developed strong foundation in infrastructure management and system reliability.
-                </p>
-                <div class="timeline-tags">
-                  <span class="badge badge-info">Windows Server</span>
-                  <span class="badge badge-info">Zabbix Monitoring</span>
-                  <span class="badge badge-info">Network Infrastructure</span>
-                  <span class="badge badge-info">IT Operations</span>
-                </div>
+                <ul class="timeline-description">
+                  <li>Executed responsive onsite IT support across hardware, connectivity, and systems troubleshooting.</li>
+                  <li>Administered and maintained network infrastructure supporting manufacturing operations.</li>
+                  <li>Skills: Active Directory, Windows Server, IT Network & Hardware Infrastructure, Cisco, Zabbix, Batch Scripting, Microsoft 365 </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -318,6 +299,34 @@
         </div>
       </div>
 
+      <!-- Contact Section -->
+      <section class="contact-section py-5 bg-light" id="contact">
+        <div class="container">
+          <h2 class="mb-5 text-center">Get In Touch</h2>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <form class="contact-form" id="contactForm" action="https://formspree.io/f/maqlrrop" method="POST">
+                <input type="text" name="_gotcha" style="display:none"> 
+                <div class="form-group">
+                  <label for="companyName">Company</label>
+                  <input type="text" class="form-control" id="companyName" name="company" placeholder="Your Company" required>
+                </div>
+                <div class="form-group">
+                  <label for="workEmail">Work Email</label>
+                  <input type="email" class="form-control" id="workEmail" name="email" placeholder="your.email@company.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              </form>
+              <div id="formMessage" class="alert mt-3" style="display: none;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer class="text-muted">
@@ -326,12 +335,6 @@
           <a href="#">Back to top</a>
         </p>
         <p>Copryright &copy; 2026 Aaron Gerald T. Martillano.</p>
-        <h4 class="text-black">Profile</h4>
-              <ul class="list-unstyled">
-                <!-- <li class="text-white">Email: <a href="" class="text-white"></a></li>
-                <li class="text-white">Mobile No: <a href="" class="text-white"></a></li> -->
-                <li class="text-black">LinkedIn: <a href="https://www.linkedin.com/in/aaron-gerald-martillano-67198328b/" class="text-blue">https://www.linkedin.com/in/aaron-gerald-martillano-67198328b/</a></li>
-              </ul>
       </div>
     </footer>
 
@@ -341,5 +344,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/load-navbar.js"></script>
+    <script src="assets/js/reset-form.js"></script>
+        
   </body>
 </html>
